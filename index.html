@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Todo List</title>
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top bg-primary ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"> 
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <a href="#" class="navbar-brand mr-auto">TODO LIST</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>About</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            <li class="nav-item" ><a class="nav-link" onclick="login();"><span class="fa fa-sign-in fa-lg"></span> Login</a></li>
+            
+        </ul>
+        </div>
+        </div>
+    <div>
+
+    </div>
+    </nav>
+
+    <div class="header">
+        <h1 class=""><center>ToDO List</center></h1>
+    </div>
+    <div class="container">
+        <div class="container row">
+            <div class="col-12">
+                <center>
+                    <input class="input" type="text" width="100" id="myinput">
+                    <button class="btn btn-primary btn-sm" onclick="getinput();">A</button>
+                    <button class="btn btn-danger btn-sm" onclick="document.getElementById('myinput').value='';
+        ">A</button>
+                </center>
+            </div>
+        </div>
+        <div class="container">
+            <div id="list">
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
+    </body>
+    
+</html>
